@@ -4,7 +4,7 @@ function App() {
   let count = 5
   return (
     <>
-      {Stars(count)}
+      <Stars count={count}/>
     </>
   )
 }
